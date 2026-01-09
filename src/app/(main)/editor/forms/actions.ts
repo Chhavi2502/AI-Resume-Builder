@@ -214,6 +214,8 @@ export async function generateWorkExperience(input: GenerateWorkExperienceInput)
     StartDate: <format: YYYY-MM-DD> (only if provided)
     EndDate: <format: YYYY-MM-DD> (only if provided)
     Description: <an optimized description in bullet format, might be inferred from the job title>
+
+    Do not add explanations, notes, or extra information. Only fill in the fields above.
     `
 
     const userMessage = `
